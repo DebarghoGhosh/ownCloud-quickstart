@@ -43,6 +43,7 @@ Release:        18.04
     The output will look like:
 
   ```
+  ```  
     Usage:  docker [OPTIONS] COMMAND
 
     A self-sufficient runtime for containers
