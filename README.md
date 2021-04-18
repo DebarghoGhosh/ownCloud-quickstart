@@ -42,8 +42,7 @@ Release:        18.04
     ```
     The output will look like:
 
-  ```
-  ```  
+    ```  
     Usage:  docker [OPTIONS] COMMAND
 
     A self-sufficient runtime for containers
@@ -116,9 +115,9 @@ Release:        18.04
     ADMIN_PASSWORD=admin
 ```
 
-	Save the configuration.
+Save the configuration.
 
-    Note: If you change the values of the environment parameters for domain, port, username, and password, in the subsequent steps, you must use the same values for launching the web UI and logging in to the ownCloud server.
+Note: If you change the values of the environment parameters for domain, port, username, and password, in the subsequent steps, you must use the same values for launching the web UI and logging in to the ownCloud server.
 
 4. Use the `docker-compose` CLI tool to build and start the container by running the following command:
 
@@ -126,7 +125,7 @@ Release:        18.04
 $ docker-compose up -d
 ```
 
-    The output will look like:
+The output will look like:
 
 ```
     Creating network "owncloudserverdocker_default" with the default driver
