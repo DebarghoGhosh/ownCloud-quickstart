@@ -67,8 +67,7 @@ Release:        18.04
     container   Manage containers
     context     Manage contexts
     engine      Manage the docker engine
-
-    	…
+	...
     ```
 
 # Install and Configure
