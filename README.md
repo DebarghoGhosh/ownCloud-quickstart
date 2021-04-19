@@ -261,7 +261,6 @@ To access ownCloud server from the web and follow the steps below:
 4. Start using the web interface. Refer to the image below:
 
 ![alt_text](assets/image10.png "image_tooltip")
-
 You can now start using the web UI by uploading documents and sharing files.
 
 ## Desktop
@@ -271,13 +270,16 @@ To start using the ownCloud desktop client for Windows, Mac OS and Linux downloa
 In this guide we will see how to install the desktop client using the installation wizard. Follow the steps given below:
 
 1. After downloading run the wizard. Enter the URL the server of your ownCloud and click Next as shown below:
+
 ![alt_text](assets/image11.png "image_tooltip")
 
 2. Enter the login credentials, and click Next as shown below:
+
 ![alt_text](assets/image12.png "image_tooltip")
 
 3. Select the respective folders and files in your local machine to sync with server and click Connect as shown below:
-![alt_text](assets/image13.png "image_tooltip")
+
+![alt_text](assets/image12.png "image_tooltip")
 
 For more details on installation, configuration, and usage of the desktop client, click [here](https://doc.owncloud.com/desktop/). 
 You can also set up ownCloud on mobile devices. If you are an Android user refer to [ownCloud - Android](https://doc.owncloud.com/android/) document and for iOS refer to the [ownCloud - iOS](https://doc.owncloud.com/ios/).
