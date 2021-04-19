@@ -104,17 +104,15 @@ In this section we will learn how to install ownCloud using a Docker Image runni
    ```
   Save the configuration.
   
-4. If you do not have `docker-compose` installed, install it by running the following command:
+4. If you do not have `docker-compose` installed, install it by running the following command:<br/><br/> ```$ sudo apt install docker-compose```
 
-```
-$ sudo apt install docker-compose
-```
 After installing use the `docker-compose` CLI tool to build and start the container by running the following command:
 ```
 $ docker-compose up -d
 ```  
 
 5. Now verify the status of the processes to determine the server is up and running. Execute the following command:
+
 ```
 $ docker-compose ps
 ```
