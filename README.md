@@ -20,7 +20,7 @@ In this section we will learn how to install ownCloud using a Docker Image runni
 
 Note: If you are already using Ubuntu 18.04 and have Docker installed you can skip these steps.  
 
-1. Verify the version of Ubuntu running the following command:
+1. Check the version of Ubuntu running the following command:
 
     ```
     $ lsb_release -a
@@ -30,12 +30,13 @@ Note: If you are already using Ubuntu 18.04 and have Docker installed you can sk
     ```
     No LSB modules are available.
     Distributor ID: Ubuntu
-    Description: Ubuntu 18.04.3 LTS
+    Description:    Ubuntu 18.04.5 LTS
     Release:        18.04
+    Codename:       bionic
 
     ```
 
-2. Verify if Docker is installed by running the following command:
+2. Check if Docker is installed by running the following command:
 
     ```
     $ docker
@@ -43,31 +44,24 @@ Note: If you are already using Ubuntu 18.04 and have Docker installed you can sk
     The output will look like:
 
     ```  
-    Usage:  docker [OPTIONS] COMMAND
+   Usage:  docker [OPTIONS] COMMAND
 
-    A self-sufficient runtime for containers
+   A self-sufficient runtime for containers
 
-    Options:
-      --config string      Location of client config files (default "/home/datadebargho/.docker")
-      -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context
-                           set with "docker context use")
-      -D, --debug              Enable debug mode
-      -H, --host list          Daemon socket(s) to connect to
-      -l, --log-level string   Set the logging level ("debug"|"info"|"warn"|"error"|"fatal") (default "info")
-          --tls                Use TLS; implied by --tlsverify
-          --tlscacert string   Trust certs signed only by this CA (default "/home/datadebargho/.docker/ca.pem")
-          --tlscert string     Path to TLS certificate file (default "/home/datadebargho/.docker/cert.pem")
-         --tlskey string      Path to TLS key file (default "/home/datadebargho/.docker/key.pem")
-         --tlsverify          Use TLS and verify the remote
-      -v, --version            Print version information and quit
+   Options:
+      --config string      Location of client config files (default "/home/debargho/.docker")
+     -c, --context string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and
+                           default context set with "docker context use")
+   -D, --debug              Enable debug mode
+   -H, --host list          Daemon socket(s) to connect to
+   -l, --log-level string   Set the logging level ("debug"|"info"|"warn"|"error"|"fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/home/debargho/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/home/debargho/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/debargho/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+   -v, --version            Print version information and quit
 
-    Management Commands:
-    builder     Manage builds
-    config      Manage Docker configs
-    container   Manage containers
-    context     Manage contexts
-    engine      Manage the docker engine
-	...
     ```
 
 # Install and Configure
@@ -87,16 +81,16 @@ Note: If you are already using Ubuntu 18.04 and have Docker installed you can sk
     ```
     $ wget https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
 
-    --2020-09-01 01:08:01--  https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
-    Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.152.133
-    Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.152.133|:443... connected.
-    HTTP request sent, awaiting response... 200 OK
-    Length: 1650 (1.6K) [text/plain]
-    Saving to: 'docker-compose.yml'
+    --2021-04-19 06:50:56--  https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
+     Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133, ...
+     Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+     HTTP request sent, awaiting response... 200 OK
+     Length: 1676 (1.6K) [text/plain]
+    Saving to: ‘docker-compose.yml’
 
-    docker-compose.yml                 100%[=============================================================>]   1.61K  --.-KB/s    in 0s
+     docker-compose.yml            100%[=================================================>]   1.64K  --.-KB/s    in 0s
 
-    2020-09-01 01:08:01 (24.2 MB/s) - 'docker-compose.yml' saved [1650/1650]
+     2021-04-19 06:50:57 (16.7 MB/s) - ‘docker-compose.yml’ saved [1676/1676]
     ```
 
 
@@ -115,51 +109,19 @@ Note: If you are already using Ubuntu 18.04 and have Docker installed you can sk
 
 Save the configuration.
 
-Note: If you change the values of the environment parameters for domain, port, username, and password, in the subsequent steps, you must use the same values for launching the web UI and logging in to the ownCloud server.
+4. If you do not have docker-compose installed, install it by running the following command:
 
-4. Use the `docker-compose` CLI tool to build and start the container by running the following command:
+```
+$ sudo apt install docker-compose
+```
+
+After installing use the `docker-compose` CLI tool to build and start the container by running the following command:
 
 ```
 $ docker-compose up -d
 ```
 The output will look like:
 
-```
-    Creating network "owncloudserverdocker_default" with the default driver
-    Creating volume "owncloudserverdocker_files" with local driver
-    Creating volume "owncloudserverdocker_redis" with local driver
-    Creating volume "owncloudserverdocker_backup" with local driver
-    Creating volume "owncloudserverdocker_mysql" with local driver
-    Pulling redis (webhippie/redis:latest)...
-    latest: Pulling from webhippie/redis
-    ae4a0e1e8235: Pull complete
-    1e24c34b24d1: Pull complete
-    95f9aef2e99d: Pull complete
-    9641411ccde6: Pull complete
-    3c5b5eddcd67: Pull complete
-    Digest: sha256:42f6d51be6a7a5ef6fb672e98507824816566f0b1f89c19b2d585f54e26b2529
-    Status: Downloaded newer image for webhippie/redis:latest
-    Pulling db (webhippie/mariadb:latest)...
-    latest: Pulling from webhippie/mariadb
-    ae4a0e1e8235: Already exists
-    1e24c34b24d1: Already exists
-    95f9aef2e99d: Already exists
-    bd3d546db57d: Pull complete
-    ce65dc9183aa: Pull complete
-    Digest: sha256:8a2c927529e5fd6238f08f79e3855d90a353e4475481574aa4bf0b90550b5db9
-    Status: Downloaded newer image for webhippie/mariadb:latest
-    Creating owncloudserverdocker_db_1 ...
-    Creating owncloudserverdocker_redis_1 ...
-    Creating owncloudserverdocker_db_1
-    Creating owncloudserverdocker_redis_1 ... done
-    Creating owncloudserverdocker_owncloud_1 ...
-```
-
-Note: If you do not have docker-compose installed, install it by running the following command:
-
-```
-$ sudo apt install docker-compose
-```
 
 5. Now verify the status of the processes to determine the server is up and running. Execute the following command:
 ```
