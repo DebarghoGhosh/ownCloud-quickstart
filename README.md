@@ -104,9 +104,8 @@ In this section we will learn how to install ownCloud using a Docker Image runni
     ADMIN_USERNAME=admin
     ADMIN_PASSWORD=admin
    ```
-
-   Save the configuration.
-
+  Save the configuration.
+  
 4. If you do not have docker-compose installed, install it by running the following command:
 
 ```
