@@ -110,8 +110,7 @@ After installing use the `docker-compose` CLI tool to build and start the contai
 ```
 $ docker-compose up -d
 ```  
-
-5. Now verify the status of the processes to determine the server is up and running. Execute the following command:
+Now verify the status of the processes to determine the server is up and running. Execute the following command:
 
 ```
 $ docker-compose ps
