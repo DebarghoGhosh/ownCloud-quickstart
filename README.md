@@ -27,13 +27,13 @@ Note: If you are already using Ubuntu 18.04 and have Docker installed you can sk
     ```
     The output will look like:
 
-```
-No LSB modules are available.
+    ```
+    No LSB modules are available.
     Distributor ID: Ubuntu
-Description:    Ubuntu 18.04.3 LTS
-Release:        18.04
+    Description: Ubuntu 18.04.3 LTS
+    Release:        18.04
 
-```
+    ```
 
 2. Verify if Docker is installed by running the following command:
 
@@ -102,18 +102,16 @@ Release:        18.04
 
 3. Create a .env file by executing the following command:
 
-	
-
-	`$ nano .env`
+   `$ nano .env`
 
     Copy the following environment configuration:
 
-```
+   ```
     OWNCLOUD_VERSION=latest
     OWNCLOUD_DOMAIN=localhost
     ADMIN_USERNAME=admin
     ADMIN_PASSWORD=admin
-```
+   ```
 
 Save the configuration.
 
@@ -173,13 +171,13 @@ $ sudo apt install docker-compose
 	The output will look like:
 
 
-```
+        ```
          Name                            Command               State           Ports
--------------------------------------------------------------------------------------------------
-owncloudserverdocker_db_1         /usr/bin/entrypoint /bin/s ...   Up      3306/tcp
-owncloudserverdocker_owncloud_1   /usr/bin/entrypoint /usr/b ...   Up      0.0.0.0:8080->8080/tcp
-owncloudserverdocker_redis_1      /usr/bin/entrypoint /bin/s ...   Up      6379/tcp
-```
+	-------------------------------------------------------------------------------------------------
+	owncloudserverdocker_db_1         /usr/bin/entrypoint /bin/s ...   Up      3306/tcp
+	owncloudserverdocker_owncloud_1   /usr/bin/entrypoint /usr/b ...   Up      0.0.0.0:8080->8080/tcp
+	owncloudserverdocker_redis_1      /usr/bin/entrypoint /bin/s ...   Up      6379/tcp
+        ```
 
 Now that the installation is done, you can test the docker image to verify and open ownCloud on the web.
 
@@ -203,8 +201,6 @@ To quickly test the docker image follow the steps below:
 
 Once the apache demon starts enter [http://localhost:8080](http://localhost:8080) on your preferred browser. The following screen will appear:
 
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 ![alt_text](images/image1.png "image_tooltip")
 
 # Administration
@@ -220,21 +216,14 @@ Once the ownCloud server is up and running with default environment values, you 
 
 1. Enter [http://localhost:8080](http://localhost:8080) on your preferred browser. The login page appears as shown below:
 
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 ![alt_text](images/image2.png "image_tooltip")
 
 2. Enter the username and password as configured in the .env file. The default is admin/admin: 
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/image3.png "image_tooltip")
 
 
 3. The Home screen appears, skip the message for installing desktop and mobile clients. The files page is displayed as shown below:   
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 ![alt_text](images/image4.png "image_tooltip")
 
@@ -244,43 +233,25 @@ To create a user account follow the steps given below:
 
 1. Login to the ownCloud server using admin credentials. Click the Admin drop-down at the top-right corner of the screen and select Users. Refer to the image below: 
 
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 ![alt_text](images/image5.png "image_tooltip")
 
 2. The screen with the list of users appears as shown below: 
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/image6.png "image_tooltip")
 
 
 3. Enter the Username and E-mail in the respective text boxes and click Create as shown below:   
 
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image7.png "image_tooltip")
 
 
 4. Once the user is created it will appear in the list as shown below:    
 
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image8.png "image_tooltip")
 
-
-
-    After the user is created the user will receive an email with the username and a system generated password.
+After the user is created the user will receive an email with the username and a system generated password.
 
 5. You can assign the user to a group from the Groups drop-down as shown below:
-
-    
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/image9.png "image_tooltip")
 
@@ -297,9 +268,6 @@ To access ownCloud server from the web and follow the steps below:
 3. Enter the login credentials.
 4. Start using the web interface. Refer to the image below:
 
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image10.png "image_tooltip")
 
 You can now start using the web UI by uploading documents and sharing files.
@@ -312,23 +280,15 @@ In this guide we will see how to install the desktop client using the installati
 
 1. After downloading run the wizard. Enter the URL the server of your ownCloud and click Next as shown below:
 
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image11.png "image_tooltip")
 
 
 2. Enter the login credentials, and click Next as shown below:
 
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 ![alt_text](images/image12.png "image_tooltip")
 
 3. Select the respective folders and files in your local machine to sync with server and click Connect as shown below:
   
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image13.png "image_tooltip")
 
 For more details on installation, configuration, and usage of the desktop client, click [here](https://doc.owncloud.com/desktop/). 
