@@ -282,7 +282,6 @@ In this guide we will see how to install the desktop client using the installati
 ![alt_text](assets/image13.png "image_tooltip")
 
 For more details on installation, configuration, and usage of the desktop client, click [here](https://doc.owncloud.com/desktop/). 
-You can also set up ownCloud on mobile devices. If you are an Android user refer to [ownCloud - Android](https://doc.owncloud.com/android/) document and for iOS refer to the [ownCloud - iOS](https://doc.owncloud.com/ios/).
 
 ## Android
 
@@ -306,3 +305,24 @@ If a message appears about trusting the server's certificates, click Yes.
 ![alt_text](assets/image17.png "image_tooltip")
 
 For more information, refer to [ownCloud - Android](https://doc.owncloud.com/android/).
+
+## iOS
+
+You can also start using ownCloud on your iOS devices. Follow the steps given below:
+
+1. Download the [iOS](https://owncloud.com/mobile-apps/) application. 
+2. Install the application similar to any other app on your phone.
+3. Enter the server’s URL and the username and password to log in to the application. \
+
+![alt_text](assets/image15.png "image_tooltip")
+
+If a message appears about trusting the server's certificates, click Yes.
+
+![alt_text](assets/image16.png "image_tooltip")
+
+4. Start using the app, starting at the Files screen as shown below:
+
+![alt_text](assets/image18.png "image_tooltip")
+
+For more information, refer to [ownCloud - iOS](https://doc.owncloud.com/ios/).
+
