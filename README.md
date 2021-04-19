@@ -170,14 +170,12 @@ $ sudo apt install docker-compose
 
 	The output will look like:
 
-
-        ```
          Name                            Command               State           Ports
 	-------------------------------------------------------------------------------------------------
 	owncloudserverdocker_db_1         /usr/bin/entrypoint /bin/s ...   Up      3306/tcp
 	owncloudserverdocker_owncloud_1   /usr/bin/entrypoint /usr/b ...   Up      0.0.0.0:8080->8080/tcp
 	owncloudserverdocker_redis_1      /usr/bin/entrypoint /bin/s ...   Up      6379/tcp
-        ```
+  
 
 Now that the installation is done, you can test the docker image to verify and open ownCloud on the web.
 
