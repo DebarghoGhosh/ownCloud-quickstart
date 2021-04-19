@@ -171,7 +171,7 @@ To create a user account follow the steps given below:
 1. Login to the ownCloud server using admin credentials. Click the Admin drop-down at the top-right corner of the screen and select Users. Refer to the image below:<br/><br/> ![alt_text](assets/image5.png "image_tooltip")
 2. The screen with the list of users appears as shown below:<br/><br/> ![alt_text](assets/image6.png "image_tooltip")
 3. Enter the Username and E-mail in the respective text boxes and click Create as shown below:<br/><br/> ![alt_text](assets/image7.png "image_tooltip")
-4. Once the user is created it will appear in the list as shown below:<br/><br/> ![alt_text](assets/image8.png "image_tooltip") <br/><br/> After the user is created the user will receive an email with the username and a system generated password.
+4. Once the user is created it will appear in the list as shown below:<br/><br/> ![alt_text](assets/image8.png "image_tooltip") <br/><br/> After the user is created the user will receive an email with the username and a system generated password.<br/>
 5. You can assign the user to a group from the Groups drop-down as shown below:<br/><br/> ![alt_text](assets/image9.png "image_tooltip")
 
 # Connect to ownCloud server
@@ -196,17 +196,9 @@ To start using the ownCloud desktop client for Windows, Mac OS and Linux downloa
 
 In this guide we will see how to install the desktop client using the installation wizard. Follow the steps given below:
 
-1. After downloading run the wizard. Enter the URL the server of your ownCloud and click Next as shown below:
-
-![alt_text](assets/image11.png "image_tooltip")
-
-2. Enter the login credentials, and click Next as shown below:
-
-![alt_text](assets/image12.png "image_tooltip")
-
-3. Select the respective folders and files in your local machine to sync with server and click Connect as shown below:
-
-![alt_text](assets/image13.png "image_tooltip")
+1. After downloading run the wizard. Enter the URL the server of your ownCloud and click Next as shown below:<br/><br/> ![alt_text](assets/image11.png "image_tooltip")
+2. Enter the login credentials, and click Next as shown below:<br/><br/> ![alt_text](assets/image12.png "image_tooltip")
+3. Select the respective folders and files in your local machine to sync with server and click Connect as shown below: <br/><br/> ![alt_text](assets/image13.png "image_tooltip")
 
 For more details on installation, configuration, and usage of the desktop client, click [here](https://doc.owncloud.com/desktop/). 
 
