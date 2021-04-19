@@ -164,17 +164,13 @@ Once the ownCloud server is up and running with default environment values, you 
 
 1. Enter [http://localhost:8080](http://localhost:8080) on your preferred browser. The login page appears, enter the username and password as configured in the `.env` file. The default is admin/admin. Refer to the image below:
 
-2. The Home screen appears as shown below:
-
-3. Skip the message for installing desktop and mobile clients. The files page is displayed as shown below:
-
 ![alt_text](assets/image2.png "image_tooltip")
 
-2. 
+2. The Home screen appears as shown below:
 
 ![alt_text](assets/image3.png "image_tooltip")
 
-3.  
+3. Skip the message for installing desktop and mobile clients. The files page is displayed as shown below:
 
 ![alt_text](assets/image4.png "image_tooltip")
 
