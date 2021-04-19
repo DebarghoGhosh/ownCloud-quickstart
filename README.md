@@ -73,7 +73,6 @@ In this section we will learn how to install ownCloud using a Docker Image runni
     $ cd docker_install
     ```
 
-
 2. Next, download the `docker-compose.yml` file from the ownCloud GitHub repository by running the following command:
 
     ```
@@ -90,7 +89,6 @@ In this section we will learn how to install ownCloud using a Docker Image runni
 
      2021-04-19 06:50:57 (16.7 MB/s) - ‘docker-compose.yml’ saved [1676/1676]
     ```
-
 
 3. Create a `.env` file by executing the following command:
 
@@ -114,7 +112,7 @@ $ sudo apt install docker-compose
 After installing use the `docker-compose` CLI tool to build and start the container by running the following command:
 ```
 $ docker-compose up -d
-```
+```  
 
 5. Now verify the status of the processes to determine the server is up and running. Execute the following command:
 ```
@@ -128,10 +126,9 @@ The output will look like:
 owncloudserverdocker_db_1         /usr/bin/entrypoint /bin/s ...   Up      3306/tcp
 owncloudserverdocker_owncloud_1   /usr/bin/entrypoint /usr/b ...   Up      0.0.0.0:8080->8080/tcp
 owncloudserverdocker_redis_1      /usr/bin/entrypoint /bin/s ...   Up      6379/tcp
-```  
+```
 
 Now that the installation is done, you can test the docker image to verify and open ownCloud on the web.
-
 
 # Test Docker Image
 
