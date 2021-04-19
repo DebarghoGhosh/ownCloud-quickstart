@@ -23,15 +23,15 @@ ownCloud is an open-source software which allows you to sync, share and collabor
 *   Share files directly from the file manager using the Virtual file system to save storage and bandwidth.
 *   Prevent conflicts while editing by locking the files to ensure better productivity.
 
-In this guide, we will learn how to install, configure, administer and connect to the ownCloud server.
+In this guide, we will learn how to _install_, _configure_, _administer_ and _connect_ to the ownCloud server.
 
 # Installation  
 
-In this section we will learn how to install ownCloud using a Docker Image running on a single Ubuntu 18.04 LTS machine. This helps you to install and set up the ownCloud server quickly and easily. If you prefer the manual installation process please refer to the detailed [Admin Manual](https://doc.owncloud.org/server/10.5/admin_manual/installation/).
+In this section we will learn how to install ownCloud using a Docker Image running on a single **Ubuntu 18.04 LTS** machine. This helps you to install and set up the ownCloud server quickly and easily. If you prefer the manual installation process please refer to the detailed [Admin Manual](https://doc.owncloud.org/server/10.5/admin_manual/installation/).
 
 ## Prerequisites
 
-1. Check the version of Ubuntu running the following command:
+1. Check the version of **Ubuntu** running the following command:
 
     ```
     $ lsb_release -a
@@ -47,7 +47,7 @@ In this section we will learn how to install ownCloud using a Docker Image runni
 
     ```
 
-2. Check if Docker is installed by running the following command:
+2. Check if `docker` is installed by running the following command:
 
     ```
     $ docker
@@ -105,7 +105,8 @@ In this section we will learn how to install ownCloud using a Docker Image runni
 
 3. Create a `.env` file by executing the following command:
 
-   `$ nano .env`
+   ```$ nano .env
+   ```
 
    Copy the following environment configuration:
 
@@ -155,7 +156,7 @@ To quickly test the docker image follow the steps below:
     $ docker pull owncloud/server:latest
     ```
 
-2. Once the image is downloaded run the image on port 8080 by executing the following command:
+2. Once the image is downloaded run the image on port **8080** by executing the following command:
 
     ```
     $ docker run -p8080:8080 owncloud/server:latest
