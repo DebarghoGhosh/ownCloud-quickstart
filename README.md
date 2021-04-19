@@ -279,7 +279,7 @@ In this guide we will see how to install the desktop client using the installati
 
 3. Select the respective folders and files in your local machine to sync with server and click Connect as shown below:
 
-![alt_text](assets/image12.png "image_tooltip")
+![alt_text](assets/image13.png "image_tooltip")
 
 For more details on installation, configuration, and usage of the desktop client, click [here](https://doc.owncloud.com/desktop/). 
 You can also set up ownCloud on mobile devices. If you are an Android user refer to [ownCloud - Android](https://doc.owncloud.com/android/) document and for iOS refer to the [ownCloud - iOS](https://doc.owncloud.com/ios/).
