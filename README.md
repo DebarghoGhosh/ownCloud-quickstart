@@ -15,7 +15,7 @@
 
 # Overview
 
-ownCloud is an open-source software which allows you to sync, share and collaborate files and content with your team. This helps a team to seamlessly work on data from anywhere and on any device. Some of the major features of ownCloud are:
+**ownCloud** is an open-source software which allows you to sync, share and collaborate files and content with your team. This helps a team to seamlessly work on data from anywhere and on any device. Some of the major features of ownCloud are:
 
 *   Flexible and secure sharing of files and folders.
 *   Collaborate remotely in real time irrespective of the platform.
@@ -23,7 +23,7 @@ ownCloud is an open-source software which allows you to sync, share and collabor
 *   Share files directly from the file manager using the Virtual file system to save storage and bandwidth.
 *   Prevent conflicts while editing by locking the files to ensure better productivity.
 
-In this guide, we will learn how to _install_, _configure_, _administer_ and _connect_ to the ownCloud server.
+In this guide, we will learn how to install, configure, administer and connect to the ownCloud server.
 
 # Installation  
 
@@ -31,7 +31,7 @@ In this section we will learn how to install ownCloud using a Docker Image runni
 
 ## Prerequisites
 
-1. Check the version of **Ubuntu** running the following command:
+1. Check the version of Ubuntu running the following command:
 
     ```
     $ lsb_release -a
@@ -77,7 +77,7 @@ In this section we will learn how to install ownCloud using a Docker Image runni
 
 # Install and Configure
 
- If docker is not installed you have to install docker. Follow the steps given below:
+ If docker is not installed you have to install docker by executing the following steps:
 
 1. Create a project folder and navigate to the folder by executing the following commands:
 
@@ -176,7 +176,7 @@ In this section, we will learn about administration workflows like:
 
 ## Allow Access to Server
 
-Once the ownCloud server is up and running with default environment values, you can access it using your browser. Follow the steps below:
+Once the ownCloud server is up and running with default environment values, you can access it using your browser by executing the following steps:
 
 1. Enter [http://localhost:8080](http://localhost:8080) on your preferred browser. The login page appears, enter the username and password as configured in the `.env` file. The default is admin/admin. Refer to the image below:<br/><br/> ![alt_text](assets/image2.png "image_tooltip")
 2. The Home screen appears as shown below:<br/><br/> ![alt_text](assets/image3.png "image_tooltip")
@@ -184,7 +184,7 @@ Once the ownCloud server is up and running with default environment values, you 
 
 ## Add user Account
 
-To create a user account follow the steps given below:
+Create a user account by executing the following steps:
 
 1. Login to the ownCloud server using admin credentials. Click the Admin drop-down at the top-right corner of the screen and select Users. Refer to the image below:<br/><br/> ![alt_text](assets/image5.png "image_tooltip")
 2. The screen with the list of users appears as shown below:<br/><br/> ![alt_text](assets/image6.png "image_tooltip")
@@ -198,7 +198,7 @@ As an end user, you can access the ownCloud server from any modern web browsers 
 
 ## Web UI
 
-To access ownCloud server from the web and follow the steps below:
+To access ownCloud server from the web by executing the following steps:
 
 1. Open a tab from any browser.
 2. Enter the server URL, or the server's IP address and port number.
@@ -212,7 +212,7 @@ You can now start using the web UI by uploading documents and sharing files.
 
 To start using the ownCloud desktop client for Windows, Mac OS and Linux download the respective desktop client from [here](https://owncloud.com/desktop-app/).  For Linux users installation steps depend on the specific distribution. For more details click [here](https://software.opensuse.org/download/package?project=isv:ownCloud:desktop&package=owncloud-client).
 
-In this guide we will see how to install the desktop client using the installation wizard. Follow the steps given below:
+In this guide we will see how to install the desktop client using the installation wizard by executing the following steps:
 
 1. After downloading run the wizard. Enter the URL the server of your ownCloud and click Next as shown below:<br/><br/> ![alt_text](assets/image11.png "image_tooltip")
 2. Enter the login credentials, and click Next as shown below:<br/><br/> ![alt_text](assets/image12.png "image_tooltip")
@@ -222,7 +222,7 @@ For more details on installation, configuration, and usage of the desktop client
 
 ## Android
 
-You can also start using ownCloud on your Android devices. Follow the steps given below:
+You can also start using ownCloud on your Android devices by executing the following steps:
 
 1. Download the [Android](https://owncloud.com/mobile-apps/) application.
 2. Install the application similar to any other app. After successful installation, a New Features Wizard screen appears as shown below:<br/><br/> ![alt_text](assets/image14.png "image_tooltip")
@@ -234,7 +234,7 @@ For more information, refer to [ownCloud - Android](https://doc.owncloud.com/and
 
 ## iOS
 
-You can also start using ownCloud on your iOS devices. Follow the steps given below:
+You can also start using ownCloud on your iOS devices by executing the following steps:
 
 1. Download the [iOS](https://owncloud.com/mobile-apps/) application. 
 2. Install the application similar to any other app on your phone.
