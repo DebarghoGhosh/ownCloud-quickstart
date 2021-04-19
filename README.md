@@ -1,3 +1,18 @@
+# Table of Contents
+* [Overview](#overview)
+* [Installation](#installation)
+  * [Prerequisites](#prerequisites)
+* [Install and Configure](#install-and-configure)
+* [Test Docker Image](#test-docker-image)
+* [Administration](#administration)
+  * [Allow Access to Server](#allow-access-to-server)
+  * [Add user Account](#add-user-account)
+* [Connect to ownCloud server](#connect-to-owncloud-server)
+  * [Web UI](#web-ui)
+  * [Desktop](#desktop)
+  * [Android](#android)
+  * [iOS](#ios)
+
 # Overview
 
 ownCloud is an open-source software which allows you to sync, share and collaborate files and content with your team. This helps a team to seamlessly work on data from anywhere and on any device. Some of the major features of ownCloud are:
