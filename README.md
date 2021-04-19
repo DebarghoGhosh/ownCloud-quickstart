@@ -209,7 +209,7 @@ You can also start using ownCloud on your Android devices. Follow the steps give
 1. Download the [Android](https://owncloud.com/mobile-apps/) application.
 2. Install the application similar to any other app. After successful installation, a New Features Wizard screen appears as shown below:<br/><br/> ![alt_text](assets/image14.png "image_tooltip")
 3. Enter the server’s URL and the username and password to log in to the application.<br/><br/> ![alt_text](assets/image15.png "image_tooltip")
-4. If a message appears about trusting the server's certificates, click Yes. <br/><br/> ![alt_text](assets/image16.png "image_tooltip")
+4. If a message appears about trusting the server's certificates, click Yes.<br/><br/> ![alt_text](assets/image16.png "image_tooltip")
 5. Start using the app as shown below:<br/><br/> ![alt_text](assets/image17.png "image_tooltip")
 
 For more information, refer to [ownCloud - Android](https://doc.owncloud.com/android/).
@@ -220,17 +220,9 @@ You can also start using ownCloud on your iOS devices. Follow the steps given be
 
 1. Download the [iOS](https://owncloud.com/mobile-apps/) application. 
 2. Install the application similar to any other app on your phone.
-3. Enter the server’s URL and the username and password to log in to the application. \
-
-![alt_text](assets/image15.png "image_tooltip")
-
-If a message appears about trusting the server's certificates, click Yes.
-
-![alt_text](assets/image16.png "image_tooltip")
-
-4. Start using the app, starting at the Files screen as shown below:
-
-![alt_text](assets/image18.png "image_tooltip")
+3. Enter the server’s URL and the username and password to log in to the application.<br/><br/> ![alt_text](assets/image15.png "image_tooltip")
+4. If a message appears about trusting the server's certificates, click Yes.<br/><br/> ![alt_text](assets/image16.png "image_tooltip")
+5. Start using the app, starting at the Files screen as shown below:<br/><br/> ![alt_text](assets/image18.png "image_tooltip")
 
 For more information, refer to [ownCloud - iOS](https://doc.owncloud.com/ios/).
 
