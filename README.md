@@ -211,16 +211,16 @@ Once the ownCloud server is up and running with default environment values, you 
 
 1. Enter [http://localhost:8080](http://localhost:8080) on your preferred browser. The login page appears as shown below:
 
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](assets/image2.png "image_tooltip")
 
 2. Enter the username and password as configured in the .env file. The default is admin/admin: 
 
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](assets/image3.png "image_tooltip")
 
 
 3. The Home screen appears, skip the message for installing desktop and mobile clients. The files page is displayed as shown below:   
 
-![alt_text](images/image4.png "image_tooltip")
+![alt_text](assets/image4.png "image_tooltip")
 
 ## Add user Account
 
@@ -228,27 +228,27 @@ To create a user account follow the steps given below:
 
 1. Login to the ownCloud server using admin credentials. Click the Admin drop-down at the top-right corner of the screen and select Users. Refer to the image below: 
 
-![alt_text](images/image5.png "image_tooltip")
+![alt_text](assets/image5.png "image_tooltip")
 
 2. The screen with the list of users appears as shown below: 
 
-![alt_text](images/image6.png "image_tooltip")
+![alt_text](assets/image6.png "image_tooltip")
 
 
 3. Enter the Username and E-mail in the respective text boxes and click Create as shown below:   
 
-![alt_text](images/image7.png "image_tooltip")
+![alt_text](assets/image7.png "image_tooltip")
 
 
 4. Once the user is created it will appear in the list as shown below:    
 
-![alt_text](images/image8.png "image_tooltip")
+![alt_text](assets/image8.png "image_tooltip")
 
 After the user is created the user will receive an email with the username and a system generated password.
 
 5. You can assign the user to a group from the Groups drop-down as shown below:
 
-![alt_text](images/image9.png "image_tooltip")
+![alt_text](assets/image9.png "image_tooltip")
 
 # Connect to ownCloud server
 
@@ -263,7 +263,7 @@ To access ownCloud server from the web and follow the steps below:
 3. Enter the login credentials.
 4. Start using the web interface. Refer to the image below:
 
-![alt_text](images/image10.png "image_tooltip")
+![alt_text](assets/image10.png "image_tooltip")
 
 You can now start using the web UI by uploading documents and sharing files.
 
@@ -275,16 +275,16 @@ In this guide we will see how to install the desktop client using the installati
 
 1. After downloading run the wizard. Enter the URL the server of your ownCloud and click Next as shown below:
 
-![alt_text](images/image11.png "image_tooltip")
+![alt_text](assets/image11.png "image_tooltip")
 
 
 2. Enter the login credentials, and click Next as shown below:
 
-![alt_text](images/image12.png "image_tooltip")
+![alt_text](assets/image12.png "image_tooltip")
 
 3. Select the respective folders and files in your local machine to sync with server and click Connect as shown below:
   
-![alt_text](images/image13.png "image_tooltip")
+![alt_text](assets/image13.png "image_tooltip")
 
 For more details on installation, configuration, and usage of the desktop client, click [here](https://doc.owncloud.com/desktop/). 
 
