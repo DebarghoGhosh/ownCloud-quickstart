@@ -164,9 +164,10 @@ $ sudo apt install docker-compose
 5. Now verify the status of the processes to determine the server is up and running. Execute the following command:
 ```
 $ docker-compose ps
+```
 
 The output will look like:
-
+```
          Name                            Command               State           Ports
 -------------------------------------------------------------------------------------------------
 owncloudserverdocker_db_1         /usr/bin/entrypoint /bin/s ...   Up      3306/tcp
