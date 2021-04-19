@@ -122,7 +122,6 @@ Note: If you change the values of the environment parameters for domain, port, u
 ```
 $ docker-compose up -d
 ```
-
 The output will look like:
 
 ```
@@ -156,12 +155,10 @@ The output will look like:
     Creating owncloudserverdocker_owncloud_1 ...
 ```
 
-
 Note: If you do not have docker-compose installed, install it by running the following command:
 
 ```
 $ sudo apt install docker-compose
-
 ```
 
 5. Now verify the status of the processes to determine the server is up and running. Execute the following command:
@@ -171,10 +168,10 @@ $ sudo apt install docker-compose
 	The output will look like:
 
          Name                            Command               State           Ports
-	-------------------------------------------------------------------------------------------------
-	owncloudserverdocker_db_1        /usr/bin/entrypoint/...   Up             3306/tcp
-	owncloudserverdocker_owncloud_1  /usr/bin/entrypoint/...   Up             0.0.0.0:8080->8080/tcp
-	owncloudserverdocker_redis_1     /usr/bin/entrypoint/...   Up             6379/tcp
+-------------------------------------------------------------------------------------------------
+owncloudserverdocker_db_1         /usr/bin/entrypoint /bin/s ...   Up      3306/tcp
+owncloudserverdocker_owncloud_1   /usr/bin/entrypoint /usr/b ...   Up      0.0.0.0:8080->8080/tcp
+owncloudserverdocker_redis_1      /usr/bin/entrypoint /bin/s ...   Up      6379/tcp
   
 
 Now that the installation is done, you can test the docker image to verify and open ownCloud on the web.
@@ -194,7 +191,6 @@ To quickly test the docker image follow the steps below:
 
     ```
     $ docker run -p8080:8080 owncloud/server:latest
-
     ```
 
 Once the apache demon starts enter [http://localhost:8080](http://localhost:8080) on your preferred browser. The following screen will appear:
