@@ -217,7 +217,6 @@ Once the ownCloud server is up and running with default environment values, you 
 
 ![alt_text](assets/image3.png "image_tooltip")
 
-
 3. The Home screen appears, skip the message for installing desktop and mobile clients. The files page is displayed as shown below:   
 
 ![alt_text](assets/image4.png "image_tooltip")
@@ -234,11 +233,9 @@ To create a user account follow the steps given below:
 
 ![alt_text](assets/image6.png "image_tooltip")
 
-
 3. Enter the Username and E-mail in the respective text boxes and click Create as shown below:   
 
 ![alt_text](assets/image7.png "image_tooltip")
-
 
 4. Once the user is created it will appear in the list as shown below:    
 
@@ -274,18 +271,13 @@ To start using the ownCloud desktop client for Windows, Mac OS and Linux downloa
 In this guide we will see how to install the desktop client using the installation wizard. Follow the steps given below:
 
 1. After downloading run the wizard. Enter the URL the server of your ownCloud and click Next as shown below:
-
 ![alt_text](assets/image11.png "image_tooltip")
 
-
 2. Enter the login credentials, and click Next as shown below:
-
 ![alt_text](assets/image12.png "image_tooltip")
 
 3. Select the respective folders and files in your local machine to sync with server and click Connect as shown below:
-  
 ![alt_text](assets/image13.png "image_tooltip")
 
 For more details on installation, configuration, and usage of the desktop client, click [here](https://doc.owncloud.com/desktop/). 
-
 You can also set up ownCloud on mobile devices. If you are an Android user refer to [ownCloud - Android](https://doc.owncloud.com/android/) document and for iOS refer to the [ownCloud - iOS](https://doc.owncloud.com/ios/).
