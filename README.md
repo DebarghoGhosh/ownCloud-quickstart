@@ -196,7 +196,7 @@ To quickly test the docker image follow the steps below:
 
 Once the apache demon starts enter [http://localhost:8080](http://localhost:8080) on your preferred browser. The following screen will appear:
 
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](assets/image1.png "image_tooltip")
 
 # Administration
 
