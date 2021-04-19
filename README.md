@@ -171,7 +171,7 @@ To create a user account follow the steps given below:
 1. Login to the ownCloud server using admin credentials. Click the Admin drop-down at the top-right corner of the screen and select Users. Refer to the image below:<br/><br/> ![alt_text](assets/image5.png "image_tooltip")
 2. The screen with the list of users appears as shown below:<br/><br/> ![alt_text](assets/image6.png "image_tooltip")
 3. Enter the Username and E-mail in the respective text boxes and click Create as shown below:<br/><br/> ![alt_text](assets/image7.png "image_tooltip")
-4. Once the user is created it will appear in the list as shown below:<br/><br/> ![alt_text](assets/image8.png "image_tooltip") <br/><br/> After the user is created the user will receive an email with the username and a system generated password.<br/>
+4. Once the user is created it will appear in the list as shown below:<br/><br/> ![alt_text](assets/image8.png "image_tooltip") <br/><br/> After the user is created the user will receive an email with the username and a system generated password.<br/><br/>
 5. You can assign the user to a group from the Groups drop-down as shown below:<br/><br/> ![alt_text](assets/image9.png "image_tooltip")
 
 # Connect to ownCloud server
@@ -207,21 +207,10 @@ For more details on installation, configuration, and usage of the desktop client
 You can also start using ownCloud on your Android devices. Follow the steps given below:
 
 1. Download the [Android](https://owncloud.com/mobile-apps/) application.
-2. Install the application similar to any other app. After successful installation, a New Features Wizard screen appears as shown below:
-
-![alt_text](assets/image14.png "image_tooltip")
-
-3. Enter the server’s URL and the username and password to log in to the application.
-
-![alt_text](assets/image15.png "image_tooltip")
-
-If a message appears about trusting the server's certificates, click Yes.
-
-![alt_text](assets/image16.png "image_tooltip")
-
-4. Start using the app as shown below:
-
-![alt_text](assets/image17.png "image_tooltip")
+2. Install the application similar to any other app. After successful installation, a New Features Wizard screen appears as shown below:<br/><br/> ![alt_text](assets/image14.png "image_tooltip")
+3. Enter the server’s URL and the username and password to log in to the application.<br/><br/> ![alt_text](assets/image15.png "image_tooltip")
+4. If a message appears about trusting the server's certificates, click Yes. <br/><br/> ![alt_text](assets/image16.png "image_tooltip")
+5. Start using the app as shown below:<br/><br/> ![alt_text](assets/image17.png "image_tooltip")
 
 For more information, refer to [ownCloud - Android](https://doc.owncloud.com/android/).
 
