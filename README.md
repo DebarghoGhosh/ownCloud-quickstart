@@ -92,9 +92,8 @@ In this section we will learn how to install ownCloud using a Docker Image runni
     ```
 
 
-3. Create a .env file by executing the following command:
-
-   `$ nano .env`
+3. Create a `.env` file by executing the following command:
+`$ nano .env`
 
     Copy the following environment configuration:
 
