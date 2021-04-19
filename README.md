@@ -10,11 +10,9 @@ ownCloud is an open-source software which allows you to sync, share and collabor
 
 In this guide, we will learn how to install, configure, administer and connect to the ownCloud server.
 
-
 # Installation  
 
 In this section we will learn how to install ownCloud using a Docker Image running on a single Ubuntu 18.04 LTS machine. This helps you to install and set up the ownCloud server quickly and easily. If you prefer the manual installation process please refer to the detailed [Admin Manual](https://doc.owncloud.org/server/10.5/admin_manual/installation/).
-
 
 ## Prerequisites
 
@@ -104,7 +102,11 @@ In this section we will learn how to install ownCloud using a Docker Image runni
    ```
   Save the configuration.
   
-4. If you do not have `docker-compose` installed, install it by running the following command:<br/><br/> ```$ sudo apt install docker-compose```
+4. If you do not have `docker-compose` installed, install it by running the following command:
+
+```
+$ sudo apt install docker-compose
+```
 
 After installing use the `docker-compose` CLI tool to build and start the container by running the following command:
 ```
