@@ -18,8 +18,6 @@ In this section we will learn how to install ownCloud using a Docker Image runni
 
 ## Prerequisites
 
-Note: If you are already using Ubuntu 18.04 and have Docker installed you can skip these steps.  
-
 1. Check the version of Ubuntu running the following command:
 
     ```
